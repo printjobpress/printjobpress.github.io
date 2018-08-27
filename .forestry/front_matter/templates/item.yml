@@ -9,5 +9,54 @@ fields:
   hidden: false
   config:
     required: true
+- type: text
+  name: by
+  label: By
+  config:
+    required: true
+- type: number
+  name: cost
+  label: Cost
+  config:
+    min: '0'
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: dimensions
+  label: Dimensions
+  description: line 1
+- type: text
+  label: Materials
+  name: materials
+  description: line 2
+- type: text
+  name: edition
+  label: Edition
+  description: line 3
+- type: text
+  name: item_sku
+  label: Item SKU
+  config:
+    required: true
+  description: must match paypal
+- type: text
+  label: Paypal URL
+  name: paypal_url
+  description: button generated code
+  config:
+    required: true
+- type: boolean
+  name: show
+  label: Show
+  default: true
 pages:
 - _store/ship-of-theseus.md
