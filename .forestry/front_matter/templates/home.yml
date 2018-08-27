@@ -10,3 +10,5 @@ fields:
   - type: text
     label: Text Field
     name: text_field
+pages:
+- index.html
