@@ -15,4 +15,16 @@ dl, dd, ol, ul, figure {
 body {
   font-family: $base-font-family;
   font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+#container {
+  // margin-left: 10vw;
+  margin-right: 20vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-block {
+  width: fit-content;
 }

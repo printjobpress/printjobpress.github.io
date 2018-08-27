@@ -1,18 +1,14 @@
 ---
 title: Home
-layout: default
+layout: page
 content_blocks:
 - content_block: printjob
   enable_border: true
 - content_block: |-
-    printjob is produced
-    by Eric Li, Helen Lin,
-    Kathleen Ma, Drew Wallace,
+    printjob is produced<br>
+    by Eric Li, Helen Lin,<br>
+    Kathleen Ma, Drew Wallace,<br>
     and Jonathan Zong
+  enable_border: true
 
 ---
-{% for content in page.content %}
-  <div class="content-block">
-    {{content | size}}
-  </div>
-{% endfor %}

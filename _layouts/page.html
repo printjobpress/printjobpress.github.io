@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<div id="container">
+  {% for content in page.content_blocks %}
+    {% assign output = content.content_block %}
+
+    {% if content.enable_border %}
+      <!-- Get max line size -->
+      {% assign lines = output | split: '<br>' %}
+      {% assign maxSize = 0 %}
+      {% for line in lines %}
+        {% assign lineSize = line | size %}
+        {% if lineSize > maxSize %}
+          {% assign maxSize = line | size %}
+        {% endif %}
+      {% endfor %}
+
+      <!-- max line size + 2 on each side -->
+      {% assign topString = '' %}
+      {% assign bottomString = '' %}
+      {% assign maxSizePad = maxSize | plus: 4 %}
+      {% for i in (1..maxSizePad) %}
+        {% assign topString = topString | append: '<span class="border top">*</span>' %}
+        {% assign bottomString = bottomString | append: '<span class="border bottom">*</span>' %}
+      {% endfor %}
+
+      {% assign output = topString %}
+      {% assign output = output | append: '<br>' %}
+
+      {% for line in lines %}
+        {% assign newLine = line | strip %}
+        {% assign lineSize = newLine | size %}
+        {% assign diffMax = maxSize | minus: lineSize %}
+        {% for i in (1..diffMax) %}
+          {% assign newLine = newLine | append: '&nbsp;' %}
+        {% endfor %}
+
+        {% assign output = output | append: '<span class="border left">*</span> ' %}
+        {% assign output = output | append: newLine %}
+        {% assign output = output | append: ' <span class="border right">*</span><br>' %}
+
+      {% endfor %}
+
+      {% assign output = output | append: bottomString %}
+
+    {% endif %}
+
+    <div class="content-block">
+      {{ output }}
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+var containerWidth = document.getElementById('container').getBoundingClientRect().width;
+var content = document.getElementsByClassName('content-block');
+for (var i = 0; i < content.length; i++) {
+  var contentWidth = content[i].getBoundingClientRect().width;
+  var maxOffsetWidth = containerWidth-contentWidth;
+  content[i].style.marginLeft = Math.random()*maxOffsetWidth + 'px';
+  content[i].style.marginTop = Math.random()*100 + 'px';
+}
+</script>
