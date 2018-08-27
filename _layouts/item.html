@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<div id="container">
-  {% for content in page.content_blocks %}
+<div id="container-item">
+  {% for content in site.data.header.content_blocks %}
     {% assign output = content.content_block %}
 
     <!-- Menu -->
@@ -63,4 +63,41 @@ layout: default
       {% endif %}
     </div>
   {% endfor %}
+
+  <div class="item-container">
+    <div class="item-image-container">
+      <img src="{{page.image}}">
+    </div>
+    <div class="item-name">{{page.item_name}}</div>
+    <div class="item-author">{{page.by}}</div>
+    <br>
+    <div class="item-dimensions">{{page.dimensions}}</div>
+    <div class="item-materials">{{page.materials}}</div>
+    <div class="item-edition">{{page.edition}}</div>
+    <br>
+    <div class="item-cost">${{page.cost}}</div>
+    <div class="item-add-to-cart"><a href="{{page.paypal_url}}" target="_blank">Add to cart...</a></div>
+    <br>
+    <div class="item-description">{{page.description}}</div>
+  </div>
 </div>
+
+<script>
+
+checkSize();
+window.onresize = checkSize;
+
+function checkSize() {
+  if (window.innerWidth< 700)
+    return;
+
+  var containerWidth = document.getElementById('container-item').getBoundingClientRect().width;
+  var content = document.getElementsByClassName('content-block');
+  for (var i = 0; i < content.length; i++) {
+    var contentWidth = content[i].getBoundingClientRect().width;
+    var maxOffsetWidth = containerWidth-contentWidth;
+    content[i].style.marginLeft = Math.random()*maxOffsetWidth + 'px';
+    content[i].style.marginTop = Math.random()*25+25 + 'px';
+  }
+}
+</script>

@@ -63,49 +63,49 @@ layout: default
       {% endif %}
     </div>
   {% endfor %}
-</div>
 
-<!--  Store -->
-<div class="store-container">
-  {% assign topString = '' %}
-  {% assign bottomString = '' %}
-  {% assign blankString = '<span class="border left">*</span>' %}
-  {% assign size = 25 %}
-  {% assign sizeSmaller = size | minus: 2 %}
-  {% for i in (1..size) %}
-    {% assign topString = topString | append: '<span class="border top">*</span>' %}
-    {% assign bottomString = bottomString | append: '<span class="border bottom">*</span>' %}
-  {% endfor %}
+  <!--  Store -->
+  <div class="store-container">
+    {% assign topString = '' %}
+    {% assign bottomString = '' %}
+    {% assign blankString = '<span class="border left">*</span>' %}
+    {% assign size = 25 %}
+    {% assign sizeSmaller = size | minus: 2 %}
+    {% for i in (1..size) %}
+      {% assign topString = topString | append: '<span class="border top">*</span>' %}
+      {% assign bottomString = bottomString | append: '<span class="border bottom">*</span>' %}
+    {% endfor %}
 
-  {% for i in (1..sizeSmaller) %}
-    {% assign blankString = blankString | append: '&nbsp;' %}
-  {% endfor %}
-  {% assign blankString = blankString | append: '<span class="border right">*</span><br>' %}
+    {% for i in (1..sizeSmaller) %}
+      {% assign blankString = blankString | append: '&nbsp;' %}
+    {% endfor %}
+    {% assign blankString = blankString | append: '<span class="border right">*</span><br>' %}
 
-  {% assign items = site.store | sort: 'rank' | reverse %}
-  {% for item in items %}
-    {% if item.show %}
-      <a href="{{item.url}}" class="item-link">
-        <div class="store-item item {{item.item_name | slugify }}">
-          {{ topString }}<br>
-          {% for i in (1..20) %}
-            {{ blankString }}
-          {% endfor %}
-          <div class="store-item-content">
-            <div class="image-container">
-              <img src="{{item.image}}">
+    {% assign items = site.store | sort: 'rank' | reverse %}
+    {% for item in items %}
+      {% if item.show %}
+        <a href="{{item.url}}" class="item-link">
+          <div class="store-item item {{item.item_name | slugify }}">
+            {{ topString }}<br>
+            {% for i in (1..20) %}
+              {{ blankString }}
+            {% endfor %}
+            <div class="store-item-content">
+              <div class="image-container">
+                <img src="{{item.image}}">
+              </div>
               <div class="item-name">{{item.item_name}}</div>
               <div class="item-author">{{item.by}}</div>
               <br>
               <div class="item-cost">${{item.cost}}</div>
-              <div class="item-add-to-cart"><a href="{{item.paypal_url}}">Add to cart...</a></div>
+              <div class="item-add-to-cart"><a href="{{item.paypal_url}}" target="_blank">Add to cart...</a></div>
             </div>
+            {{ bottomString }}
           </div>
-          {{ bottomString }}
-        </div>
-      </a>
-    {% endif %}
-  {% endfor %}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 <script>
@@ -123,8 +123,7 @@ function checkSize() {
     var contentWidth = content[i].getBoundingClientRect().width;
     var maxOffsetWidth = containerWidth-contentWidth;
     content[i].style.marginLeft = Math.random()*maxOffsetWidth + 'px';
-    content[i].style.marginTop = Math.random()*250+25 + 'px';
-    if (i == 0) content[i].style.marginTop = Math.random()*100 + 'px';
+    content[i].style.marginTop = Math.random()*25+25 + 'px';
   }
 }
 </script>

@@ -1,0 +1,8 @@
+---
+content_blocks:
+- content_block: printjob
+  enable_border: true
+  url: "/"
+- content_block: __menu__
+  enable_border: true
+---
