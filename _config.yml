@@ -14,10 +14,13 @@ url: "http://printjob.press" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 collections:
-  shop:
-    output: false
+  store:
+    output: true
+    permalink: /store/:path/
+
 # collections:
 #     work:
 #         output: true

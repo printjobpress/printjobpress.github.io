@@ -9,7 +9,18 @@ layout: default
     {% if output == '__store__' %}
       {% assign output = 'Products:<br><br>' %}
       {% for item in site.data.store.items %}
-        {% capture tmp %}<span class="{{item.item_name | slugify }} item"><span class="item-name">{{item.item_name}}</span><span class="spacing">..</span><span class="item-cost">${{item.cost}}</span></span> <a href="{{ item.paypal_url }}" target="_blank">Add to cart...</a><div class="{{item.item_name | slugify}} item-img hide">{% if item.image != '' %}<img src="{{item.image}}">{% endif %}</div><br>{% endcapture %}
+        {% if item.show %}
+          {% capture tmp %}<span class="{{item.item_name | slugify }} item"><span class="item-name">{{item.item_name}}</span><span class="spacing">..</span><span class="item-cost">${{item.cost}}</span></span> <a href="{{ item.paypal_url }}" target="_blank">Add to cart...</a><div class="{{item.item_name | slugify}} item-meta hide">{% if item.image != '' %}<img src="{{item.image}}">{% endif %}</div><br>{% endcapture %}
+          {% assign output = output | append: tmp %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    <!-- Menu -->
+    {% if output == '__menu__' %}
+      {% assign output = '' %}
+      {% for item in site.menus.main %}
+        {% capture tmp %}<a href="{{item.url}}" title="{{item.title}}">{{item.title}}</a> {% endcapture %}
         {% assign output = output | append: tmp %}
       {% endfor %}
     {% endif %}
@@ -80,7 +91,7 @@ function checkSize() {
     var contentWidth = content[i].getBoundingClientRect().width;
     var maxOffsetWidth = containerWidth-contentWidth;
     content[i].style.marginLeft = Math.random()*maxOffsetWidth + 'px';
-    content[i].style.marginTop = Math.random()*300+25 + 'px';
+    content[i].style.marginTop = Math.random()*250+25 + 'px';
     if (i == 0) content[i].style.marginTop = Math.random()*100 + 'px';
   }
 }
@@ -90,7 +101,7 @@ for (var i = 0; i < items.length; i++) {
   (function(a) {
     var item = items[a];
     var itemClass = item.classList[0];
-    var itemImageClass = '.item-img.' + itemClass;
+    var itemImageClass = '.item-meta.' + itemClass;
     var itemImg = document.querySelector(itemImageClass);
     item.onclick = function() {
       itemImg.classList.toggle('hide');
