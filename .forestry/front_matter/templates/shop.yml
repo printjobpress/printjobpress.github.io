@@ -57,7 +57,5 @@ fields:
     name: show
     label: Show
     default: true
-pages:
-- _store/ship-of-theseus.md
 data_files:
 - _data/store.yml

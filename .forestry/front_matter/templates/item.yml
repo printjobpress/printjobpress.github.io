@@ -9,3 +9,5 @@ fields:
   hidden: false
   config:
     required: true
+pages:
+- _store/ship-of-theseus.md
