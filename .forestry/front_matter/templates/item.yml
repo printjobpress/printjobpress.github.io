@@ -66,4 +66,5 @@ fields:
   label: Show
   default: true
 pages:
+- _store/life-in-the-dreamhouse-no-1.md
 - _store/ship-of-theseus.md
