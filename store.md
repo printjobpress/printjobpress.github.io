@@ -10,6 +10,6 @@ content_blocks:
   enable_border: true
 menu:
   main:
-    weight: 1
+    weight: 2
 
 ---

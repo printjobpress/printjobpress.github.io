@@ -30,6 +30,6 @@ content_blocks:
   enable_border: false
 menu:
   main:
-    weight: 2
+    weight: 1
 
 ---
