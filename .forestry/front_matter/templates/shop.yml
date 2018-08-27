@@ -1,5 +1,5 @@
 ---
-label: Shop Inventory
+label: Store Inventory
 hide_body: true
 is_partial: false
 fields:
@@ -57,5 +57,3 @@ fields:
     name: show
     label: Show
     default: true
-data_files:
-- _data/shop.yml

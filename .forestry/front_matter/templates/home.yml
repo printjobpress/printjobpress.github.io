@@ -26,5 +26,4 @@ fields:
     description: make the entire content block link to something
 pages:
 - about.md
-- shop.md
 - index.md
