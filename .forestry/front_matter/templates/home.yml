@@ -25,4 +25,5 @@ fields:
     label: URL
     description: make the entire content block link to something
 pages:
+- shop.md
 - index.md
