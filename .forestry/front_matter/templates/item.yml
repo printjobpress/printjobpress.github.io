@@ -54,6 +54,13 @@ fields:
   description: button generated code
   config:
     required: true
+- type: number
+  name: rank
+  label: Rank
+  config:
+    min: '0'
+  description: ranking for ordering items
+  default: '0'
 - type: boolean
   name: show
   label: Show
