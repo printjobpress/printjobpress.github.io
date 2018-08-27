@@ -9,7 +9,12 @@ content_blocks:
     and Jonathan Zong
 
 ---
-{% for content in page.content_
+<style>
+.form-field {
+  font-family: monospace;
+}
+</style>
+{% for content in page.content %}
   <div class="content-block">
     {{content | size}}
   </div>
