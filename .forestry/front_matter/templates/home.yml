@@ -14,5 +14,8 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
+  - type: boolean
+    name: enable_border
+    label: Enable Border
 pages:
 - index.html
