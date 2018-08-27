@@ -7,14 +7,14 @@ fields:
   label: Item Name
   type: text
   hidden: false
-  default: Ship of Theseus
+  default: ''
   config:
     required: true
 - name: by
   label: By
   type: text
   hidden: false
-  default: Eric Li
+  default: ''
   config:
     required: true
 - type: number
@@ -23,7 +23,7 @@ fields:
   config:
     min: '0'
     required: true
-  default: '5.00'
+  default: ''
 - type: textarea
   name: description
   label: Description
@@ -39,7 +39,7 @@ fields:
   label: Item sku
   type: text
   hidden: false
-  default: ship-of-theseus
+  default: ''
   description: must match paypal
   config:
     required: true
@@ -49,7 +49,7 @@ fields:
   description: button generated code (email)
   config:
     required: true
-  default: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JM5Q685A6XULW
+  default: ''
 pages:
 - _shop/life-in-the-dreamhouse-1.md
 - _shop/ship-of-theseus.md
