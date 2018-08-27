@@ -51,5 +51,6 @@ fields:
     required: true
   default: ''
 pages:
+- _shop/best-buy-zine.md
 - _shop/life-in-the-dreamhouse-1.md
 - _shop/ship-of-theseus.md
