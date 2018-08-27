@@ -14,6 +14,8 @@ fields:
       wysiwyg: true
       schema:
         format: html
+    description: lay out in textedit or other monospace editor first. then shift-enter
+      the line breaks here.
   - type: boolean
     name: enable_border
     label: Enable Border
