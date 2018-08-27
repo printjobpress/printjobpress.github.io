@@ -12,6 +12,5 @@ shop:
   show: true
   cost: '5.00'
   item_sku: ship-of-theseus
-published: false
 
 ---
