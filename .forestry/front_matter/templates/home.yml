@@ -8,8 +8,8 @@ fields:
   name: content_blocks
   fields:
   - type: textarea
-    name: content_box
-    label: Content Box
+    name: content_block
+    label: Content Block
     config:
       wysiwyg: false
       schema:
