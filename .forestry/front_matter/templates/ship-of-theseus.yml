@@ -51,4 +51,5 @@ fields:
     required: true
   default: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JM5Q685A6XULW
 pages:
+- _shop/life-in-the-dreamhouse-1.md
 - _shop/ship-of-theseus.md
