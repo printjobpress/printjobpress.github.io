@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Variables
+$base-font-family: "printjob-mono", Courier, monospace;
+
+$base-font-size: 24px;
+
+// $smol-font-size: 16px;
+// $big-font-size: 24px;
+//
+// $base-color: black;
+// $gray: #aaaaaa;
+//
+// $href-color: #0000ff;
+// $href-hover: #ff0000;
+// $href-deselect: black;
+//
+// $nav-font-size: 40px;
+// $nav-phone-font-size: 24px;
+//
+// $footer-font-size: 10px;
+//
+// $frame-padding: 10px;
+//
+// $pages-count: {{site.pages.size}};
+// $content-phone-padding: $nav-phone-font-size * $pages-count;
+// $content-padding: $nav-font-size * ($pages-count - 1);
+//
+// $view-padding: 5vw;
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+      "base"
+      ;
