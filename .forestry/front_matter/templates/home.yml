@@ -7,8 +7,12 @@ fields:
   label: Content Blocks
   name: content_blocks
   fields:
-  - type: text
-    label: Text Field
-    name: text_field
+  - type: textarea
+    name: content_box
+    label: Content Box
+    config:
+      wysiwyg: false
+      schema:
+        format: markdown
 pages:
 - index.html
