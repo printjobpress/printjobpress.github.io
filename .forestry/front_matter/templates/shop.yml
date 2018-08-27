@@ -1,0 +1,59 @@
+---
+label: Store Inventory
+hide_body: true
+is_partial: false
+fields:
+- type: field_group_list
+  name: items
+  label: Items
+  fields:
+  - type: text
+    name: item_name
+    label: Item Name
+    config:
+      required: true
+  - type: text
+    name: by
+    label: By
+    config:
+      required: true
+  - type: number
+    name: cost
+    label: Cost
+    config:
+      min: '0'
+      required: true
+  - type: textarea
+    name: description
+    label: Description
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    label: Dimensions
+    name: dimensions
+    description: line 1
+  - type: text
+    label: Materials
+    name: materials
+    description: line 2
+  - type: text
+    label: Edition
+    name: edition
+    description: line 3
+  - type: text
+    name: item_sku
+    label: Item SKU
+    config:
+      required: true
+    description: must match paypal
+  - type: text
+    name: paypal_url
+    label: Paypal URL
+    description: button generated code
+    config:
+      required: true
+  - type: boolean
+    name: show
+    label: Show
+    default: true

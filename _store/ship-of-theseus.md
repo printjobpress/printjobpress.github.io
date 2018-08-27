@@ -5,7 +5,8 @@ items: []
 item_name: Ship of Theseus
 by: Eric Li
 cost: '5.00'
-description: ''
+description: What’s in a name? that which we call a rose<br>By any other name would
+  smell as sweet;<br>...
 image: "/uploads/Screen Shot 2018-08-27 at 11.43.32.png"
 dimensions: 13 pages, 6x9 inches
 materials: ''
