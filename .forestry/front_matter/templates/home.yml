@@ -11,7 +11,7 @@ fields:
     name: content_block
     label: Content Block
     config:
-      wysiwyg: true
+      wysiwyg: false
       schema:
         format: html-blocks
   - type: boolean
