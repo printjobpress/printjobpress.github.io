@@ -17,5 +17,6 @@ fields:
   - type: boolean
     name: enable_border
     label: Enable Border
+    default: true
 pages:
 - index.html
