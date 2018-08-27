@@ -21,6 +21,13 @@ collections:
     output: true
     permalink: /store/:path/
 
+defaults:
+  - scope:
+      path: ""
+      type: "store"
+    values:
+      layout: "item"
+
 # collections:
 #     work:
 #         output: true

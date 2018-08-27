@@ -82,9 +82,10 @@ layout: default
   {% endfor %}
   {% assign blankString = blankString | append: '<span class="border right">*</span><br>' %}
 
-  {% for item in site.data.store.items %}
+  {% assign items = site.store | sort: 'rank' | reverse %}
+  {% for item in items %}
     {% if item.show %}
-      <a href="#" class="item-link">
+      <a href="{{item.url}}" class="item-link">
         <div class="store-item item {{item.item_name | slugify }}">
           {{ topString }}<br>
           {% for i in (1..20) %}
