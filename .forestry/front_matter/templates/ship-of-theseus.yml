@@ -1,20 +1,20 @@
 ---
 label: Shop Item
-hide_body: false
+hide_body: true
 is_partial: false
 fields:
 - name: item_name
   label: Item Name
   type: text
   hidden: false
-  default: ''
+  default: Ship of Theseus
   config:
     required: true
 - name: by
   label: By
   type: text
   hidden: false
-  default: ''
+  default: Eric Li
   config:
     required: true
 - type: number
@@ -23,6 +23,7 @@ fields:
   config:
     min: '0'
     required: true
+  default: '5.00'
 - type: textarea
   name: description
   label: Description
@@ -38,7 +39,14 @@ fields:
   label: Item sku
   type: text
   hidden: false
-  default: ''
+  default: ship-of-theseus
   description: must match paypal
   config:
     required: true
+- type: text
+  name: paypal_url
+  label: Paypal URL
+  description: button generated code (email)
+  config:
+    required: true
+  default: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4M4WWSAKVUKAL
