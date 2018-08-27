@@ -50,3 +50,5 @@ fields:
   config:
     required: true
   default: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4M4WWSAKVUKAL
+pages:
+- _shop/ship-of-theseus.md

@@ -1,9 +1,12 @@
 ---
 title: Ship of Theseus
 by: Eric Li
-cost: 15
+cost: 5
 name: Ship of Theseus
-description: by eric li
-image: ""
+description: ''
+image: "/uploads/Screen Shot 2018-08-25 at 00.40.51.png"
 item_sku: ship-of-theseus
+paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4M4WWSAKVUKAL
+item_name: Ship of Theseus
+
 ---
