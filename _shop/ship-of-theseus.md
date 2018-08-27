@@ -1,7 +1,7 @@
 ---
 title: Ship of Theseus
 by: Eric Li
-cost: 5
+cost: '5.00'
 name: Ship of Theseus
 description: ''
 image: "/uploads/Screen Shot 2018-08-25 at 00.40.51.png"
