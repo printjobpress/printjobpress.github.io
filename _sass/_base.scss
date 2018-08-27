@@ -26,13 +26,22 @@ a:hover {
   color: red;
 }
 
+.hide {
+  display: none;
+}
+
 #container {
   // margin-left: 10vw;
+  margin-left: 5vw;
   margin-right: 20vw;
   display: flex;
   flex-direction: column;
 
   margin-bottom: 200px;
+}
+
+.spacing {
+  color: white;
 }
 
 .content-block {
@@ -41,6 +50,22 @@ a:hover {
   img {
     max-width: 400px;
   }
+}
+
+.item {
+  cursor: pointer;
+
+  .item-name {
+  }
+
+  .item-cost {
+
+  }
+}
+
+.item-img {
+  margin-left: 10%;
+  width: 50%;
 }
 
 @media screen and (max-width: 700px) {
@@ -53,7 +78,8 @@ a:hover {
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
-    z-index: 2;
+
+    margin: 0;
   }
 
   .content-block {
@@ -68,7 +94,7 @@ a:hover {
 
 @media screen and (max-width: 350px) {
   body {
-    font-size: 0.45*$base-font-size;
-    line-height: 0.45*$base-line-height;
+    font-size: 0.4*$base-font-size;
+    line-height: 0.4*$base-line-height;
   }
 }

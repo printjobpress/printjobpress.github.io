@@ -5,6 +5,15 @@ layout: default
   {% for content in page.content_blocks %}
     {% assign output = content.content_block %}
 
+    <!-- Store -->
+    {% if output == '__store__' %}
+      {% assign output = 'Products:<br><br>' %}
+      {% for item in site.shop %}
+        {% capture tmp %}<span class="{{item.item_name | slugify }} item"><span class="item-name">{{item.item_name}}</span><span class="spacing">..</span><span class="item-cost">${{item.cost}}</span></span> <a href="{{ item.paypal_url }}" target="_blank">Add to cart...</a><div class="{{item.item_name | slugify}} item-img hide">{% if item.image != '' %}<img src="{{item.image}}">{% endif %}</div><br>{% endcapture %}
+        {% assign output = output | append: tmp %}
+      {% endfor %}
+    {% endif %}
+
     {% if content.enable_border %}
       <!-- Get max line size -->
       {% assign lines = output | split: '<br>' %}
@@ -74,5 +83,18 @@ function checkSize() {
     content[i].style.marginTop = Math.random()*300+25 + 'px';
     if (i == 0) content[i].style.marginTop = Math.random()*100 + 'px';
   }
+}
+
+var items = document.getElementsByClassName('item');
+for (var i = 0; i < items.length; i++) {
+  (function(a) {
+    var item = items[a];
+    var itemClass = item.classList[0];
+    var itemImageClass = '.item-img.' + itemClass;
+    var itemImg = document.querySelector(itemImageClass);
+    item.onclick = function() {
+      itemImg.classList.toggle('hide');
+    }
+  })(i);
 }
 </script>
