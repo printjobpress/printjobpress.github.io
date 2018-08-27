@@ -1,6 +1,6 @@
 ---
 title: home
-layout: home
+layout: page
 content_blocks:
 - content_block: printjob
   enable_border: true
