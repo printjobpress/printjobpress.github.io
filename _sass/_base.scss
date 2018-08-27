@@ -3,7 +3,6 @@
   src: url('../fonts/printjobmonospace-Regular.woff'); /*URL to font*/
 }
 
-
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -24,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: green;
+  color: red;
 }
 
 #container {
@@ -36,4 +35,30 @@ a:hover {
 
 .content-block {
   width: fit-content;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 0.5*$base-font-size;
+    line-height: 0.5*$base-line-height;
+  }
+
+  #container {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .content-block {
+    margin-left: none !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body {
+    font-size: 0.45*$base-font-size;
+    line-height: 0.45*$base-line-height;
+  }
 }

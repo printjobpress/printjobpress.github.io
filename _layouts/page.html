@@ -57,12 +57,21 @@ layout: default
 </div>
 
 <script>
-var containerWidth = document.getElementById('container').getBoundingClientRect().width;
-var content = document.getElementsByClassName('content-block');
-for (var i = 0; i < content.length; i++) {
-  var contentWidth = content[i].getBoundingClientRect().width;
-  var maxOffsetWidth = containerWidth-contentWidth;
-  content[i].style.marginLeft = Math.random()*maxOffsetWidth + 'px';
-  content[i].style.marginTop = Math.random()*100 + 'px';
+
+checkSize();
+window.onresize = checkSize;
+
+function checkSize() {
+  if (window.innerWidth< 700)
+    return;
+
+  var containerWidth = document.getElementById('container').getBoundingClientRect().width;
+  var content = document.getElementsByClassName('content-block');
+  for (var i = 0; i < content.length; i++) {
+    var contentWidth = content[i].getBoundingClientRect().width;
+    var maxOffsetWidth = containerWidth-contentWidth;
+    content[i].style.marginLeft = Math.random()*maxOffsetWidth + 'px';
+    content[i].style.marginTop = Math.random()*100+25 + 'px';
+  }
 }
 </script>
