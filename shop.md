@@ -1,7 +1,7 @@
 ---
 title: shop
 date: 2018-08-27 17:10:09 +0000
-content_blocks: []
+layout: shop
 shop:
 - item_name: Ship of Theseus
   by: Eric Li
