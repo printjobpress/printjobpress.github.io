@@ -25,3 +25,6 @@ collections:
 #     thoughts:
 #         output: true
 #         permalink: /words/:path/
+
+plugins:
+- jekyll-menus
