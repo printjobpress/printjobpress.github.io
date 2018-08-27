@@ -1,0 +1,12 @@
+---
+label: Home
+hide_body: false
+is_partial: false
+fields:
+- type: field_group_list
+  label: Content Blocks
+  name: content_blocks
+  fields:
+  - type: text
+    label: Text Field
+    name: text_field
