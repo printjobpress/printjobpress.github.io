@@ -11,9 +11,9 @@ fields:
     name: content_block
     label: Content Block
     config:
-      wysiwyg: false
+      wysiwyg: true
       schema:
-        format: markdown
+        format: html-blocks
   - type: boolean
     name: enable_border
     label: Enable Border
