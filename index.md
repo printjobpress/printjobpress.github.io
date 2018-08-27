@@ -2,11 +2,11 @@
 title: home
 layout: home
 content_blocks:
-- content_block: __menu__
-  enable_border: true
 - content_block: printjob
   enable_border: true
   url: "/"
+- content_block: __menu__
+  enable_border: true
 - content_block: __store__
   enable_border: true
 - content_block: printjob is an independent publishing<br>initiative. It is a loosely
