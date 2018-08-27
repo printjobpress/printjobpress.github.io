@@ -34,12 +34,12 @@ fields:
     name: dimensions
     description: line 1
   - type: text
-    label: Material
-    name: material
+    label: Materials
+    name: materials
     description: line 2
   - type: text
-    label: Binding
-    name: binding
+    label: Edition
+    name: edition
     description: line 3
   - type: text
     name: item_sku
