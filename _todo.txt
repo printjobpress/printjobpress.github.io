@@ -1,0 +1,5 @@
+- social media head tags
+- description of items implementation
+- separate item pages?
+- about page?
+- figure out paypal + accounting. order POS (either paypal or square)
