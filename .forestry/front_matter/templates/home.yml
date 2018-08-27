@@ -24,3 +24,5 @@ fields:
     name: url
     label: URL
     description: make the entire content block link to something
+pages:
+- index.md
