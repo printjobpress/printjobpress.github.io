@@ -8,6 +8,5 @@ description: ''
 image: "/uploads/BESTBUY1_COVER.jpg"
 item_sku: best-buy-zine
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JM5Q685A6XULW
-published: false
 
 ---
