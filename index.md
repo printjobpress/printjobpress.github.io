@@ -1,6 +1,7 @@
 ---
 title: home
 layout: home
+menus: main
 content_blocks:
 - content_block: printjob
   enable_border: true
