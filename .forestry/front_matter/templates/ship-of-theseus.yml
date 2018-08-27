@@ -1,40 +1,44 @@
 ---
-label: Ship of Theseus
-hide_body: 
-is_partial: 
+label: Shop Item
+hide_body: false
+is_partial: false
 fields:
-- name: title
-  label: Title
+- name: item_name
+  label: Item Name
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
 - name: by
   label: By
   type: text
   hidden: false
   default: ''
-- name: cost
+  config:
+    required: true
+- type: number
+  name: cost
   label: Cost
-  type: text
-  hidden: false
-  default: ''
-- name: name
-  label: Name
-  type: text
-  hidden: false
-  default: ''
-- name: description
+  config:
+    min: '0'
+    required: true
+- type: textarea
+  name: description
   label: Description
-  type: text
-  hidden: false
-  default: ''
-- name: image
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+- type: file
+  name: image
   label: Image
-  type: text
-  hidden: false
-  default: ''
 - name: item_sku
   label: Item sku
   type: text
   hidden: false
   default: ''
+  description: must match paypal
+  config:
+    required: true
