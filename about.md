@@ -8,8 +8,4 @@ content_blocks:
   url: "/"
 - content_block: __menu__
   enable_border: true
-menu:
-  main:
-    weight: 3
-
 ---

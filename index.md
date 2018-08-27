@@ -28,8 +28,4 @@ content_blocks:
     title="instagram">instagram</a>, <a href="http://gdlp01.c-wss.com/gds/0/0300026830/05/MF730_630_Series_UsersGuide_usEN_4.pdf"
     title="ok?">...</a>
   enable_border: false
-menu:
-  main:
-    weight: 1
-
 ---

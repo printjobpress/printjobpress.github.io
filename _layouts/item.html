@@ -8,7 +8,7 @@ layout: default
     <!-- Menu -->
     {% if output == '__menu__' %}
       {% assign output = '' %}
-      {% for item in site.menus.main %}
+      {% for item in site.data.menus.main %}
         {% capture tmp %}<a href="{{item.url}}" title="{{item.title}}">{{item.title}}</a> {% endcapture %}
         {% assign output = output | append: tmp %}
       {% endfor %}
