@@ -1,12 +1,16 @@
 ---
 layout: default
 content_blocks:
-- content_box: printjob
-- content_box: |-
+- content_block: printjob
+- content_block: |-
     printjob is produced
     by Eric Li, Helen Lin,
     Kathleen Ma, Drew Wallace,
     and Jonathan Zong
 
 ---
-pritnjob
+{% for content in page.content_
+  <div class="content-block">
+    {{content | size}}
+  </div>
+{% endfor %}
