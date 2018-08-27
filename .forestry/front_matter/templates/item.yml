@@ -1,0 +1,11 @@
+---
+label: Item
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: item_name
+  label: Item Name
+  hidden: false
+  config:
+    required: true
