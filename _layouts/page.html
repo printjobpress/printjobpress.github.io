@@ -71,7 +71,8 @@ function checkSize() {
     var contentWidth = content[i].getBoundingClientRect().width;
     var maxOffsetWidth = containerWidth-contentWidth;
     content[i].style.marginLeft = Math.random()*maxOffsetWidth + 'px';
-    content[i].style.marginTop = Math.random()*100+25 + 'px';
+    content[i].style.marginTop = Math.random()*300+25 + 'px';
+    if (i == 0) content[i].style.marginTop = Math.random()*100 + 'px';
   }
 }
 </script>
