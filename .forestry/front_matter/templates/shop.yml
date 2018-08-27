@@ -4,8 +4,8 @@ hide_body: true
 is_partial: false
 fields:
 - type: field_group_list
-  name: shop
-  label: Shop
+  name: items
+  label: Items
   fields:
   - type: text
     name: item_name
