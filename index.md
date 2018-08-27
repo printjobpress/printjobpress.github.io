@@ -5,8 +5,6 @@ content_blocks:
 - content_block: printjob
   enable_border: true
   url: "/"
-- content_block: __menu__
-  enable_border: true
 - content_block: __store__
   enable_border: true
 - content_block: printjob is an independent publishing<br>initiative. It is a loosely
@@ -17,6 +15,8 @@ content_blocks:
     href="http://www.drewwallacegames.com/" title="Drew Wallace">Drew Wallace</a>,
     and <a href="http://jonathanzong.com/" title="Jonathan Zong">Jonathan Zong</a>
     in 2018.
+  enable_border: true
+- content_block: __menu__
   enable_border: true
 - content_block: Sign up for our mailing list..
   enable_border: true
