@@ -10,9 +10,9 @@ layout: default
       {% assign lines = output | split: '<br>' %}
       {% assign maxSize = 0 %}
       {% for line in lines %}
-        {% assign lineSize = line | size %}
+        {% assign lineSize = line | strip_html | strip | size %}
         {% if lineSize > maxSize %}
-          {% assign maxSize = line | size %}
+          {% assign maxSize = line | strip_html | strip | size %}
         {% endif %}
       {% endfor %}
 
@@ -30,7 +30,7 @@ layout: default
 
       {% for line in lines %}
         {% assign newLine = line | strip %}
-        {% assign lineSize = newLine | size %}
+        {% assign lineSize = newLine | strip_html | size %}
         {% assign diffMax = maxSize | minus: lineSize %}
         {% for i in (1..diffMax) %}
           {% assign newLine = newLine | append: '&nbsp;' %}
@@ -47,7 +47,11 @@ layout: default
     {% endif %}
 
     <div class="content-block">
-      {{ output }}
+      {% if content.url %}
+        <a href="{{ content.url }}">{{ output }}</a>
+      {% else %}
+        {{ output }}
+      {% endif %}
     </div>
   {% endfor %}
 </div>

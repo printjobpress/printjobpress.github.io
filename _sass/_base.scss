@@ -18,6 +18,15 @@ body {
   line-height: $base-line-height;
 }
 
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
 #container {
   // margin-left: 10vw;
   margin-right: 20vw;
