@@ -13,6 +13,5 @@ materials: ''
 edition: ''
 item_sku: best-buy-zine
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XBCYZ9NE65P8Q
-published: false
 
 ---
