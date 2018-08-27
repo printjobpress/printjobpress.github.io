@@ -8,6 +8,5 @@ paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id
 date: 2018-08-27 05:56:49 +0000
 description: ''
 image: "/uploads/angie-keefer.jpg"
-published: false
 
 ---
