@@ -2,6 +2,10 @@
 title: about
 date: 2018-08-27 19:14:34 +0000
 layout: page
+content_blocks:
+- content_block: printjob
+  enable_border: true
+  url: "/"
 menu:
   main:
     weight: 1
