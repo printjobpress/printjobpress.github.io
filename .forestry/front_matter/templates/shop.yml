@@ -57,3 +57,5 @@ fields:
     name: show
     label: Show
     default: true
+data_files:
+- _data/store.yml
