@@ -18,5 +18,9 @@ fields:
     name: enable_border
     label: Enable Border
     default: true
+  - type: text
+    name: url
+    label: URL
+    description: make the entire content block link to something
 pages:
 - index.html
