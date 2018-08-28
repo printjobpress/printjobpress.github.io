@@ -8,4 +8,15 @@ content_blocks:
   url: "/"
 - content_block: __menu__
   enable_border: true
+- enable_border: true
+  content_block: 'printjob is an independent publishing initiative. It is a&nbsp;loosely
+    organized group of individuals intervening and seizing existing means of production
+    and dissemination. printjob was founded by Eric Li, Helen Lin, Kathleen Ma, Drew
+    Wallace, and Jonathan Zong in 2018.&nbsp; <br><br>Returns:<br>Unfortunately, we
+    are unable to process requests at the moment. If you are unsatisfied with your
+    purchase, please reach out. <br><br>Shipping: <br>Please allow for up to two weeks
+    for shipping. Please reach out for collaborations and inquiries here. We are always
+    looking for individuals to print and make jokes with.'
+published: false
+
 ---
