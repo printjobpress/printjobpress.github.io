@@ -18,6 +18,5 @@ content_blocks:
     <br><br>Questions and Collaborations:<br>Please reach out for collaborations and
     inquiries here. We are always looking for individuals to print books and make
     jokes with.'
-published: false
 
 ---
