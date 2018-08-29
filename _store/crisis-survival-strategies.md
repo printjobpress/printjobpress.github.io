@@ -13,6 +13,6 @@ materials: 6 pages
 edition: ''
 item_sku: crisis-survival
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5GRU8XK7RHTEU
-purchase_type: Add to cart
+purchase_type: Add to cart...
 
 ---
