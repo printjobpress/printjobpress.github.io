@@ -17,5 +17,6 @@ materials: 16 pages
 edition: ''
 item_sku: monti-sans-booklet
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XZBBDNNLYR5DQ
+purchase_type: Add to cart
 
 ---
