@@ -17,7 +17,7 @@ description: This project consists of a year-long serialization with a new issue
   to create a small sixteen-page booklet that easily fits in your hand. With this
   accessible publishing method, the zines can cheaply be reproduced using a standard
   copy machine.<br><br>Purchase and get a random issue from the series, or request
-  a specific issue by emailing helenlinart@gmail.com.
+  a specific issue by emailing helenlinart@gmail.com
 image: "/uploads/pink label.png"
 dimensions: 4.25'' x 5.5''
 materials: 14 pages
