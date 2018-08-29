@@ -17,14 +17,14 @@ description: I did this booklet as the written report for my independent work wi
   the Apple Watch. To the extent that there is kind of two competing pieces in here.
   One is the text, which is kind of just a general or a specific I guess discussion
   of design, identity, and sort of thinking about this idea of true form that Max
-  Bill proposed in his essay *<em>ontinuity and Change*</em> uh so there's that and
-  there's also the images which are uh screenshots of each different watch face I
-  designed throughout the semester. And what I kind of like about it is that the two
-  are actually really uh intricately linked in that each image corresponds to what
-  I'm talking about at any given point. But uh there's kind of this unresolved like
-  like there's lack of clarity that I like because it kind of forces the reader to
-  dig in and try to understand why are these images of watch faces being talked about
-  in this discussion of time and design.
+  Bill proposed in his essay *Continuity and Change* uh so there's that and there's
+  also the images which are uh screenshots of each different watch face I designed
+  throughout the semester. And what I kind of like about it is that the two are actually
+  really uh intricately linked in that each image corresponds to what I'm talking
+  about at any given point. But uh there's kind of this unresolved like like there's
+  lack of clarity that I like because it kind of forces the reader to dig in and try
+  to understand why are these images of watch faces being talked about in this discussion
+  of time and design.
 image: "/uploads/ship_of_theseus.jpg"
 dimensions: 6x9"
 materials: 13 pages
