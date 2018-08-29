@@ -24,6 +24,6 @@ materials: 14 pages
 edition: ''
 item_sku: pink-label-zine
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6CEP9VKK6FSL
-purchase_type: Add to cart
+purchase_type: Add to cart...
 
 ---
