@@ -7,7 +7,7 @@ item_name: Best Buy Zine
 by: Kathleen Ma
 cost: '1.00'
 description: ''
-image: ''
+image: "/uploads/BESTBUY1_COVER-1.png"
 dimensions: ''
 materials: ''
 edition: ''
