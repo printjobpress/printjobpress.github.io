@@ -66,6 +66,7 @@ fields:
   label: Show
   default: true
 pages:
+- _store/monti-sans-font.md
 - _store/ship-of-theseus.md
 - _store/monti-sans.md
 - _store/pink-label-zine.md
