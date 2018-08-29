@@ -11,7 +11,7 @@ layout: default
       {% assign items = site.store | sort: 'rank' | reverse %}
       {% for item in items %}
         {% if item.show %}
-          {% capture tmp %}<span class="{{item.item_name | slugify }} item"><span class="item-name">{{item.item_name}}</span><span class="spacing">..</span><span class="item-cost">${{item.cost}}</span></span> <a href="{{ item.paypal_url }}" target="_blank">Add to cart...</a><div class="{{item.item_name | slugify}} item-meta hide">{% if item.image != '' %}<img src="{{item.image}}">{% endif %}</div><br>{% endcapture %}
+          {% capture tmp %}<span class="{{item.item_name | slugify }} item"><span class="item-name">{{item.item_name}}</span><span class="spacing">..</span><span class="item-cost">${{item.cost}}</span></span> <a href="{{ item.paypal_url }}" target="_blank">{{item.purchase_type}}</a><div class="{{item.item_name | slugify}} item-meta hide">{% if item.image != '' %}<img src="{{item.image}}">{% endif %}</div><br>{% endcapture %}
           {% assign output = output | append: tmp %}
         {% endif %}
       {% endfor %}

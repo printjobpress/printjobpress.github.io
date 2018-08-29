@@ -98,7 +98,7 @@ layout: default
               <div class="item-author">{{item.by}}</div>
               <br>
               <div class="item-cost">${{item.cost}}</div>
-              <div class="item-add-to-cart"><a href="{{item.paypal_url}}" target="_blank">Add to cart...</a></div>
+              <div class="item-add-to-cart"><a href="{{item.paypal_url}}" target="_blank">{{item.purchase_type}}</a></div>
             </div>
             {{ bottomString }}
           </div>
