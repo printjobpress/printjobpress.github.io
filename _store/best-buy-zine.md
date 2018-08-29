@@ -9,7 +9,7 @@ cost: '1.00'
 description: 'BEST BUY is a zine made and printed in BEST BUY. Using only sales bulletins
   and product pamphlets found in BEST BUY, the project distills the promise of technological
   influence on how we work and how we dream. '
-image: "/uploads/BESTBUY1_COVER-3.png"
+image: ''
 dimensions: 4.25'' x 5.5''
 materials: ''
 edition: ''
