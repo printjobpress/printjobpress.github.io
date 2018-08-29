@@ -1,6 +1,6 @@
 ---
 title: Pink Label Zine
-rank: 3
+rank: 2
 show: true
 date: 2018-08-29 01:00:23 +0000
 item_name: Pink Label Zine
