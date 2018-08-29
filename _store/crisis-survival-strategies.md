@@ -1,6 +1,6 @@
 ---
 title: Crisis Survival Strategies
-rank: ''
+rank: 7
 show: true
 date: 2018-08-29 00:48:13 +0000
 item_name: Crisis Survival Strategies
