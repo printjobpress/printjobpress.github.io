@@ -65,10 +65,14 @@ fields:
   name: show
   label: Show
   default: true
-- type: boolean
-  name: buy_now
-  label: Buy Now
-  description: use instead of add to cart if (requires download)
+- type: select
+  name: purchase_type
+  config:
+    source:
+      type: simple
+    required: true
+  label: Purchase Type
+  description: ''
 pages:
 - _store/monti-sans-font.md
 - _store/ship-of-theseus.md
