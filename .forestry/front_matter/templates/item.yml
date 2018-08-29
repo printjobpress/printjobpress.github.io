@@ -78,8 +78,8 @@ fields:
   description: ''
   default: Add to cart
 pages:
-- _store/monti-sans-font.md
 - _store/ship-of-theseus.md
+- _store/monti-sans-font.md
 - _store/monti-sans.md
 - _store/pink-label-zine.md
 - _store/crisis-survival-strategies.md
