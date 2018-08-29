@@ -1,6 +1,6 @@
 ---
 title: Crisis Survival Strategies
-rank: 0
+rank: ''
 show: true
 date: 2018-08-29 00:48:13 +0000
 item_name: Crisis Survival Strategies
@@ -13,5 +13,6 @@ materials: 6 pages
 edition: ''
 item_sku: crisis-survival
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5GRU8XK7RHTEU
+purchase_type: Add to cart
 
 ---
