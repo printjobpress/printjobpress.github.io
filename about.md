@@ -18,5 +18,10 @@ content_blocks:
     weeks for shipping.<br><br>Questions and Collaborations:<br>Please reach out for
     collaborations and inquiries here.<br>We are always looking for individuals to
     print books<br>and make jokes with.
+- content_block: <a href="mailto:printjobpress@gmail.com" title="email">email</a>,
+    <a href="https://twitter.com/printjobpress" title="twitter">twitter</a>, <a href="http://instagram.com/printjobpress"
+    title="instagram">instagram</a>, <a href="http://gdlp01.c-wss.com/gds/0/0300026830/05/MF730_630_Series_UsersGuide_usEN_4.pdf"
+    title="ok?">...</a>
+  enable_border: false
 
 ---
