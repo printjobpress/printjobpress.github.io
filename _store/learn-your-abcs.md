@@ -1,11 +1,11 @@
 ---
 title: Learn Your ABCs
-rank: 1
+rank: 4
 show: true
 date: 2018-08-29 00:15:05 +0000
 item_name: Learn Your ABCs
 by: Helen Lin
-cost: 15
+cost: '15.00'
 description: Learn Your ABC (DEFGHIJKLMNO...) is a coloring book that cycles through
   nine iterations of the alphabet. It progressively relays more subjectivity in its
   portrayals with each iteration. Rated T.
