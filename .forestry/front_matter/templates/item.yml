@@ -66,6 +66,7 @@ fields:
   label: Show
   default: true
 pages:
+- _store/learn-your-abcs.md
 - _store/ship-of-theseus.md
 - _store/best-buy-zine.md
 - _store/life-in-the-dreamhouse-no-1.md
