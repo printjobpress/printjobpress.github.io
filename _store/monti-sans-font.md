@@ -52,6 +52,6 @@ materials: ''
 edition: ''
 item_sku: monti-sans
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYLUS5ZSCQTYW
-purchase_type: Buy now
+purchase_type: Buy now...
 
 ---
