@@ -71,8 +71,12 @@ fields:
     source:
       type: simple
     required: true
+    options:
+    - Add to cart
+    - Buy now
   label: Purchase Type
   description: ''
+  default: Add to cart
 pages:
 - _store/monti-sans-font.md
 - _store/ship-of-theseus.md
