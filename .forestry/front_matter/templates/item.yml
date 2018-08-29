@@ -59,6 +59,7 @@ fields:
   label: Rank
   config:
     min: '0'
+    required: true
   description: ranking for ordering items
   default: '0'
 - type: boolean
