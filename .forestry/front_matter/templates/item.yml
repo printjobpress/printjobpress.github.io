@@ -66,6 +66,7 @@ fields:
   label: Show
   default: true
 pages:
+- _store/monti-sans.md
 - _store/pink-label-zine.md
 - _store/crisis-survival-strategies.md
 - _store/learn-your-abcs.md
