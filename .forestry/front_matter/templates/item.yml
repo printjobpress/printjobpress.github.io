@@ -75,7 +75,7 @@ fields:
     - Add to cart
     - Buy now
   label: Purchase Type
-  description: ''
+  description: keep as "add to cart" unless requires download (any digital media)
   default: Add to cart
 pages:
 - _store/ship-of-theseus.md
