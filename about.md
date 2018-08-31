@@ -9,15 +9,20 @@ content_blocks:
 - content_block: __menu__
   enable_border: true
 - enable_border: true
-  content_block: printjob is an independent publishing initiative.<br>It is a loosely
-    organized group of individuals<br>intervening and seizing existing means of production<br>and
-    dissemination. printjob was founded by Eric Li,<br>Helen Lin, Kathleen Ma, Drew
-    Wallace, and Jonathan Zong<br>in 2018.<br><br>Returns:<br>Unfortunately, we are
-    unable to process requests<br>at the moment. If you are unsatisfied with your
-    purchase,<br>please reach out.<br><br>Shipping:<br>Please allow for up to two
-    weeks for shipping.<br><br>Questions and Collaborations:<br>Please reach out for
-    collaborations and inquiries here.<br>We are always looking for individuals to
-    print books<br>and make jokes with.
+  content_block: printjob is an independent publishing <br>initiative. It is a collective
+    of artists <br>using the tools of intervention, production, <br>and dissemination
+    to understand ourselves <br>and the world. Our goal is to make fun <br>books that
+    reflect our relationship with <br>printers and the printing process, and <br>make
+    friends with wider communities of artists.<br><br>printjob was founded by <a href="https://eric.young.li/"
+    title="Eric Li">Eric Li</a>, <a href="http://helen-lin.com/" title="Helen Lin">Helen
+    Lin</a>, <br><a href="http://kathleenma.com/" title="Kathleen Ma">Kathleen Ma</a>,
+    <a href="http://www.drewwallacegames.com/" title="Drew Wallace">Drew Wallace</a>,
+    and <a href="http://jonathanzong.com/" title="Jonathan Zong">Jonathan Zong</a>
+    <br>in 2018.<br><br>Returns:<br>Unfortunately, we are unable to process requests<br>at
+    the moment. If you are unsatisfied with your purchase,<br>please reach out.<br><br>Shipping:<br>Please
+    allow for up to two weeks for shipping.<br><br>Questions and Collaborations:<br>Please
+    reach out for collaborations and inquiries here.<br>We are always looking for
+    individuals to print books<br>and make jokes with.
 - content_block: <a href="mailto:printjobpress@gmail.com" title="email">email</a>,
     <a href="https://twitter.com/printjobpress" title="twitter">twitter</a>, <a href="http://instagram.com/printjobpress"
     title="instagram">instagram</a>, <a href="http://gdlp01.c-wss.com/gds/0/0300026830/05/MF730_630_Series_UsersGuide_usEN_4.pdf"
