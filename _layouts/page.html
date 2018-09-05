@@ -78,9 +78,19 @@ layout: default
 </div>
 
 <script>
+const debounce = (fn, time) => {
+  let timeout;
+
+  return function() {
+    const functionCall = () => fn.apply(this, arguments);
+
+    clearTimeout(timeout);
+    timeout = setTimeout(functionCall, time);
+  }
+}
 
 checkSize();
-window.onresize = checkSize;
+window.onresize = debounce(checkSize, 100);
 
 function checkSize() {
   if (window.innerWidth< 700)
