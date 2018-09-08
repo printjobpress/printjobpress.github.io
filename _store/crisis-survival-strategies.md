@@ -5,7 +5,7 @@ show: true
 date: 2018-08-29 00:48:13 +0000
 item_name: Crisis Survival Strategies
 by: Helen Lin
-cost: 0.25
+cost: '0.50'
 description: ''
 image: "/uploads/Crisis Survival Strategies-1.png"
 dimensions: 2.14'' x 2.75''
