@@ -20,6 +20,9 @@ fields:
   config:
     min: '0'
     required: true
+- type: image_gallery
+  name: images
+  label: Images
 - type: textarea
   name: description
   label: Description
@@ -27,9 +30,6 @@ fields:
     wysiwyg: true
     schema:
       format: html
-- type: image_gallery
-  name: images
-  label: Images
 - type: text
   name: dimensions
   label: Dimensions
