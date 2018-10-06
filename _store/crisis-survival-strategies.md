@@ -14,5 +14,7 @@ edition: ''
 item_sku: crisis-survival
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5GRU8XK7RHTEU
 purchase_type: Add to cart...
+images:
+- "/uploads/Crisis Survival Strategies-1.png"
 
 ---
