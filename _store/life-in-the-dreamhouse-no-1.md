@@ -16,5 +16,7 @@ edition: Limited Edition
 item_sku: life-in-the-dreamhouse-1
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3DAJ7G8BVJSGC
 purchase_type: Add to cart...
+images:
+- "/uploads/life-in-the-dreamhouse-1.jpeg"
 
 ---
