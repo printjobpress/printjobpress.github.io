@@ -26,5 +26,6 @@ item_sku: under-consideration
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FG9X7LSJUKGGJ
 images:
 - "/uploads/IMG_4204 copy.jpg"
+- "/uploads/cover.jpg"
 
 ---

@@ -65,9 +65,11 @@ layout: default
   {% endfor %}
 
   <div class="item-container">
-    <div class="item-image-container">
-      <img src="{{page.image}}">
-    </div>
+    {% for image in page.images %}
+      <div class="item-image-container {% unless forloop.first %}hide{% endunless %}">
+        <img src="{{image}}">
+      </div>
+    {% endfor %}
     <div class="item-name">{{page.item_name}}</div>
     <div class="item-author">{{page.by}}</div>
     <br>
@@ -99,5 +101,18 @@ function checkSize() {
     content[i].style.marginLeft = Math.random()*maxOffsetWidth + 'px';
     content[i].style.marginTop = Math.random()*25+25 + 'px';
   }
+}
+
+function showNext(idx) {
+  return function() {
+    imageContainers[idx].classList.add('hide');
+    imageContainers[(idx+1)%imageContainers.length].classList.remove('hide');  
+  }
+}
+
+var imageIdx = 0;
+var imageContainers = document.getElementsByClassName('item-image-container');
+for (var i = 0; i < imageContainers.length; i++) {
+  imageContainers[i].onclick = showNext(i);
 }
 </script>

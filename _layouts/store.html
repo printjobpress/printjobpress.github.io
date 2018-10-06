@@ -91,9 +91,11 @@ layout: default
               {{ blankString }}
             {% endfor %}
             <div class="store-item-content">
-              <div class="image-container">
-                <img src="{{item.image}}">
-              </div>
+              {% if item.images.size > 0 %}
+                <div class="image-container">
+                  <img src="{{item.images[0]}}">
+                </div>
+              {% endif %}
               <div class="item-name">{{item.item_name}}</div>
               <div class="item-author">{{item.by}}</div>
               <br>
