@@ -79,8 +79,8 @@ fields:
   description: keep as "add to cart" unless requires download (any digital media)
   default: Add to cart...
 pages:
-- _store/under-consideration.md
 - _store/everyone-should.md
+- _store/under-consideration.md
 - _store/printjob-mini-manual.md
 - _store/ship-of-theseus.md
 - _store/pink-label-zine.md

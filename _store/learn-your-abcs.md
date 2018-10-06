@@ -16,5 +16,7 @@ edition: ''
 item_sku: learn-your-abcs
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5BXZYLSLAA8TN
 purchase_type: Add to cart...
+images:
+- "/uploads/learn your abcs.jpg"
 
 ---
