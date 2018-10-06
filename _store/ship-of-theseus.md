@@ -34,5 +34,7 @@ paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id
 rank: 1
 show: true
 purchase_type: Add to cart...
+images:
+- "/uploads/ship_of_theseus.jpg"
 
 ---
