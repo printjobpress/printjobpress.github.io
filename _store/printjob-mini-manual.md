@@ -14,5 +14,7 @@ materials: 16 pages
 edition: ''
 item_sku: printjob-mini-manual
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y3LGJGZH4PXU4
+images:
+- "/uploads/pjminiman2.png"
 
 ---
