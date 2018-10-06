@@ -18,7 +18,7 @@ description: <em><br></em><a href="http://under-consideration.com/" title=""><em
   each participant. One is solid, which corresponds to the person who last responded,
   while the other is dotted, waiting for the other to respond. Once a response is
   added, the lines flip and the solid becomes dotted while the dotted becomes solid.
-image: "/uploads/cover.jpg"
+image: "/uploads/IMG_4204 copy.jpg"
 dimensions: 8.5"x11"
 materials: Paper
 edition: Open Ended Edition
