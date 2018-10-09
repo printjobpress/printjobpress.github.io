@@ -6,7 +6,7 @@ purchase_type: Add to cart...
 date: 2018-08-31 04:17:30 +0000
 item_name: everyone should
 by: jonathan zong
-cost: 30
+cost: '30.00'
 description: Everyone Should&nbsp;is a book and Twitter bot. Every hour, the bot finds
   the most recent tweet beginning with the words “everyone should” and retweets it.
   These messages are collected in the bot’s timeline, and in a large book designed
