@@ -79,6 +79,7 @@ fields:
   description: keep as "add to cart" unless requires download (any digital media)
   default: Add to cart...
 pages:
+- _store/jeff-bezos-is-my-interior-decorator.md
 - _store/pink-label-zine.md
 - _store/life-in-the-dreamhouse-no-1.md
 - _store/ship-of-theseus.md
