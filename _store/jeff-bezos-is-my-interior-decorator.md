@@ -8,8 +8,8 @@ item_name: jeff bezos is my interior decorator
 by: jonathan zong
 cost: 5
 images:
-- "/uploads/IMG_20181002_140902.jpg"
 - "/uploads/IMG_20181002_140849 (1).jpg"
+- "/uploads/IMG_20181002_140902.jpg"
 description: issue 1 of jeff bezineo's amazine dream dot com. a story about algorithms,
   sameness, consumerism, and the futon that follows me everywhere.
 dimensions: 4.25 × 5.5
