@@ -6,7 +6,7 @@ purchase_type: Add to cart...
 date: 2018-10-09 01:45:07 +0000
 item_name: jeff bezos is my interior decorator
 by: jonathan zong
-cost: 5
+cost: '5.00'
 images:
 - "/uploads/IMG_20181002_140849 (1).jpg"
 - "/uploads/IMG_20181002_140902.jpg"
