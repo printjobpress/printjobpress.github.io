@@ -17,6 +17,5 @@ materials: ''
 edition: ''
 item_sku: bezos-decorator
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2HGBF8HWVRSYC
-published: false
 
 ---
