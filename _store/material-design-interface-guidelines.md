@@ -22,6 +22,5 @@ materials: ''
 edition: ''
 item_sku: material-design
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=967DE88FZ3TKL
-published: false
 
 ---
