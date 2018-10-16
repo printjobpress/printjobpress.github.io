@@ -5,7 +5,7 @@ show: true
 date: 2018-08-27 20:56:02 +0000
 item_name: Best Buy Zine
 by: Kathleen Ma
-cost: '1.00'
+cost: '3.00'
 description: 'BEST BUY is a zine made and printed in BEST BUY. Using only sales bulletins
   and product pamphlets found in BEST BUY, the project distills the promise of technological
   influence on how we work and how we dream. '
