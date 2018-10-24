@@ -79,6 +79,7 @@ fields:
   description: keep as "add to cart" unless requires download (any digital media)
   default: Add to cart...
 pages:
+- _store/jeff-bezos-is-feeling-snacky.md
 - _store/material-design-interface-guidelines.md
 - _store/everyone-should.md
 - _store/jeff-bezos-is-my-interior-decorator.md
