@@ -27,7 +27,7 @@ content_blocks:
   url: http://eepurl.com/dFbtfH
 - content_block: "¯\\_(ツ)_/¯"
   enable_border: false
-- content_block: printjob was at <a href="http://bostonartbookfair.com/" title="Boston
+- content_block: printjob was at<br>    <a href="http://bostonartbookfair.com/" title="Boston
     Art Book Fair">Boston Art Book Fair</a> on October 12–14
   enable_border: false
 - content_block: <a href="mailto:printjobpress@gmail.com" title="email">email</a>,
