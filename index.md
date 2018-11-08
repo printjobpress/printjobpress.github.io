@@ -5,9 +5,9 @@ content_blocks:
 - content_block: printjob
   enable_border: true
   url: "/"
-- content_block: printjob will be at NY Tech Zine Fair on<br>November 31–December
-    1 and<br>Odds and Ends Art Book Fair<br>on December 7!
-  enable_border: true
+- content_block: printjob will be at NY Tech Zine Fair on November 31–December 1 and<br>Odds
+    and Ends Art Book Fair on December 7!
+  enable_border: false
 - content_block: __store__
   enable_border: true
 - content_block: printjob is an independent publishing <br>initiative. It is a collective
