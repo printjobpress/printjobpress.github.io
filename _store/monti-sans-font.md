@@ -5,7 +5,7 @@ show: true
 date: 2018-08-29 03:03:12 +0000
 item_name: Monti Sans
 by: Eric Li
-cost: '25.00'
+cost: 25
 description: So somehow one of the big projects that I ended up working on this school
   year was Monti Sans, which totally was not something I imagined taking up a large
   amount of my time uhm. And it kind of started initially with the production of *a
