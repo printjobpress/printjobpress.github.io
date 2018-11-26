@@ -6,7 +6,7 @@ purchase_type: Add to cart...
 date: 2018-10-10 03:20:15 +0000
 item_name: Material Design Interface Guidelines
 by: jonathan zong
-cost: '25.00'
+cost: 25
 images:
 - "/uploads/00-cover.jpg"
 - "/uploads/02-introduction.jpg"

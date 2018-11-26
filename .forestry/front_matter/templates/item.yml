@@ -79,6 +79,7 @@ fields:
   description: keep as "add to cart" unless requires download (any digital media)
   default: Add to cart...
 pages:
+- _store/material-design-interface-guidelines.md
 - _store/best-buy-zine.md
 - _store/crisis-survival-strategies.md
 - _store/monti-sans.md
@@ -92,4 +93,3 @@ pages:
 - _store/pink-label-zine.md
 - _store/jeff-bezos-is-my-interior-decorator.md
 - _store/everyone-should.md
-- _store/material-design-interface-guidelines.md
