@@ -4,7 +4,7 @@ date: 2018-08-27 20:49:08 +0000
 items: []
 item_name: Ship of Theseus
 by: Eric Li
-cost: '5.00'
+cost: 5
 description: I did this booklet as the written report for my independent work with
   David Reinfurt, on time. And its kind of my first stab at design writing, which
   is like this entire field of writing that concerns design in a very broad sense.
