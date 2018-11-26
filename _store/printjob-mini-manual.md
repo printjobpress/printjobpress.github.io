@@ -6,7 +6,7 @@ purchase_type: Add to cart...
 date: 2018-08-29 06:42:05 +0000
 item_name: printjob manual
 by: Drew Wallace and printjob press
-cost: '3.00'
+cost: 3
 description: very important instructions
 image: "/uploads/pjminiman2.png"
 dimensions: 4.25x5.5"
