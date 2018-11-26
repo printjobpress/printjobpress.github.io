@@ -15,8 +15,7 @@ description: 'issue no. 2 of "jeff bezineo''s amazine dream dot com." in this zi
 dimensions: 4.25 × 5.5
 materials: ''
 edition: ''
-item_sku: bezos-snacks
-paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2HGBF8HWVRSYC
-published: false
+item_sku: bezos-snacky
+paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2TSS85JN85NB8
 
 ---
