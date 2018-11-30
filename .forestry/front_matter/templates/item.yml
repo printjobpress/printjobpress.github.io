@@ -79,17 +79,17 @@ fields:
   description: keep as "add to cart" unless requires download (any digital media)
   default: Add to cart...
 pages:
-- _store/material-design-interface-guidelines.md
-- _store/everyone-should.md
-- _store/jeff-bezos-is-my-interior-decorator.md
-- _store/ship-of-theseus.md
-- _store/life-in-the-dreamhouse-no-1.md
 - _store/under-consideration.md
-- _store/best-buy-zine.md
-- _store/crisis-survival-strategies.md
-- _store/monti-sans.md
+- _store/life-in-the-dreamhouse-no-1.md
+- _store/ship-of-theseus.md
+- _store/jeff-bezos-is-my-interior-decorator.md
+- _store/everyone-should.md
+- _store/material-design-interface-guidelines.md
 - _store/jeff-bezos-is-feeling-snacky.md
-- _store/monti-sans-font.md
-- _store/learn-your-abcs.md
-- _store/printjob-mini-manual.md
 - _store/pink-label-zine.md
+- _store/printjob-mini-manual.md
+- _store/monti-sans-font.md
+- _store/monti-sans.md
+- _store/crisis-survival-strategies.md
+- _store/learn-your-abcs.md
+- _store/best-buy-zine.md
