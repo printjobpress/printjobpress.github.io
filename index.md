@@ -5,9 +5,7 @@ content_blocks:
 - content_block: printjob
   enable_border: true
   url: "/"
-- content_block: 'printjob will be at NY Tech Zine Fair on November 30–December 1,<br>Zine
-    Soup 3.0: Makers Market on December 1, and<br>Odds and Ends Art Book Fair on December
-    7!'
+- content_block: printjob will be at Odds and Ends Art Book Fair on December 7!
   enable_border: false
 - content_block: __store__
   enable_border: true
