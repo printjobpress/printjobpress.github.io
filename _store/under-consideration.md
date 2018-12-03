@@ -6,7 +6,7 @@ purchase_type: Add to cart...
 date: 2018-10-06 19:10:01 +0000
 item_name: Under Consideration
 by: Nazli Ercan and Eric Li
-cost: 15
+cost: 17
 description: <em><br></em><a href="http://under-consideration.com/" title=""><em>Under
   Consideration</em></a>&nbsp;is a collaborative publishing effort by&nbsp;<a href="http://nazli-ercan.com/">Nazli
   Ercan</a>&nbsp;and&nbsp;<a href="http://eric.young.li/">Eric Li</a>.<br><br>This
