@@ -20,6 +20,9 @@ item_sku: monti-sans-booklet
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XZBBDNNLYR5DQ
 purchase_type: Add to cart...
 images:
-- "/uploads/Monti_Sans.jpg"
+- "/uploads/Monti Sans bigger.jpg"
+- "/uploads/Monti Sans bigger3.jpg"
+- "/uploads/Monti Sans bigger13.jpg"
+- "/uploads/Monti Sans bigger14.jpg"
 
 ---
