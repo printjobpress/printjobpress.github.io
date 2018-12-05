@@ -26,10 +26,13 @@ description: Studio B's first clothing item, the Unique Clothes T-Shirt is produ
   has perhaps led to a new definition of the term unique. Studio B is interested in
   perusing UNIQLO's various wares and creating clothing that is perhaps, somewhat
   unique.<br><br>Studio B is the collaborative workshop of Eric Li and Kelly Tan.
-dimensions: T-Shirt
-materials: Unisex Medium
-edition: Navy/Black (1), Black/Orange (1), White/Navy (1), Orange/White (1)
+dimensions: T-Shirt Unisex Medium
+materials: Add to cart
+edition: <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W78VFQUMNZKBW">Navy/Black</a>
+  , <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F6CMKSVJSWXE6">Black/Orange</a>,
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BJSBEWJQF7RJU">White/Navy</a>,
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPNBFAMPUF2PG">Orange/White</a>
 item_sku: studio-b-unique-clothes-t-shirt
-paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W78VFQUMNZKBW
+paypal_url: "#"
 
 ---
