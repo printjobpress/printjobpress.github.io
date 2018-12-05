@@ -5,16 +5,17 @@ show: true
 date: 2018-08-29 02:54:09 +0000
 item_name: Monti Sans (Booklet)
 by: Eric Li
-cost: 5
-description: Monti Sans was developed as part of Fia Backstrom’s Art as Research class.
-  I was interested in exploring the idea of a font as an archive; much like how photographs
-  and documents are considered archives, I argued that fonts can also be considered
-  archival material. This project began by researching the history of Princeton Monticello
-  and Princeton’s identity, the results of which can be found here.
+cost: 8
+description: Monti Sans is a typeface meant to explore how institutions deploy graphic
+  design in order to assert their own authority. Monti Sans is inspired by James Goggin's
+  Courier Sans, and is created by taking Princeton's typeface, Monticello, and cutting
+  off all the serifs with an exacto knife. This booklet functions as a specimen book
+  and collects all the research that went into the typeface and ties it together with
+  a short text.
 image: "/uploads/Monti_Sans.jpg"
-dimensions: 4.25x5.5"
-materials: 16 pages
-edition: ''
+dimensions: 5.5x8.5"
+materials: 20 pages
+edition: Second Edition
 item_sku: monti-sans-booklet
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XZBBDNNLYR5DQ
 purchase_type: Add to cart...
