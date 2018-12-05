@@ -5,7 +5,7 @@ show: true
 date: 2018-08-29 02:54:09 +0000
 item_name: Monti Sans (Booklet)
 by: Eric Li
-cost: 8
+cost: 9
 description: Monti Sans is a typeface meant to explore how institutions deploy graphic
   design in order to assert their own authority. Monti Sans is inspired by James Goggin's
   Courier Sans, and is created by taking Princeton's typeface, Monticello, and cutting
