@@ -25,7 +25,7 @@ description: Studio B's first clothing item, the Unique Clothes T-Shirt is produ
   clothing that is anything but unique. In fact, mass production and mechanization
   has perhaps led to a new definition of the term unique. Studio B is interested in
   perusing UNIQLO's various wares and creating clothing that is perhaps, somewhat
-  *unique.*<br><br>
+  *unique*.<br><br>
 dimensions: T-Shirt
 materials: Unisex Medium
 edition: Navy/Black (1), Black/Orange (1), White/Navy (1), Orange/White (1)
