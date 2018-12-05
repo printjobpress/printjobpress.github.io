@@ -20,6 +20,5 @@ materials: 16 pages
 edition: ''
 item_sku: na-ps-1
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J4CZKQVLNKCY2
-published: false
 
 ---
