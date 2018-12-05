@@ -18,10 +18,17 @@ description: Studio B's first clothing item, the Unique Clothes T-Shirt is produ
   four. They are an exercise in found color combinations, but as clothing. We suggest
   <a href="http://kmbag.nl/" title="">KMbag</a> as a complementary accessory for the
   shirt. Other color combinations are available per request via <a href="mailto:ericyoungli@gmail.com"
-  title="">email</a>.<br><br>
-dimensions: ''
-materials: ''
-edition: ''
+  title="">email</a>.<br><br>The Studio B Unique Clothes collection is based on off
+  clothing purchasable at UNIQLO. Originally founded in 1984 as "Unique Clothing Warehouse,"
+  an administrative error caused the firm to be registered not as UNICLO but instead
+  as UNIQLO. Since then, the fast retail, fast fashion company has gone on to produce
+  clothing that is anything but unique. In fact, mass production and mechanization
+  has perhaps led to a new definition of the term unique. Studio B is interested in
+  perusing UNIQLO's various wares and creating clothing that is perhaps, somewhat
+  *unique.*
+dimensions: T-Shirt
+materials: Unisex Medium
+edition: Navy/Black (1), Black/Orange (1), White/Navy (1), Orange/White (1)
 item_sku: studio-b-unique-clothes-t-shirt
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W78VFQUMNZKBW
 published: false
