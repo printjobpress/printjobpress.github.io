@@ -4,8 +4,8 @@ rank: 21
 show: true
 purchase_type: Add to cart...
 date: 2018-12-05 06:31:26 +0000
-item_name: 'Studio B: Unique Clothes'
-by: Studio B (Eric Li & Kelly Tan)
+item_name: Unique Clothes T-Shirt
+by: Studio B
 cost: 45
 images:
 - "/uploads/IMG_0353.jpeg"
@@ -25,7 +25,7 @@ description: Studio B's first clothing item, the Unique Clothes T-Shirt is produ
   clothing that is anything but unique. In fact, mass production and mechanization
   has perhaps led to a new definition of the term unique. Studio B is interested in
   perusing UNIQLO's various wares and creating clothing that is perhaps, somewhat
-  *unique.*
+  *unique.*<br><br>
 dimensions: T-Shirt
 materials: Unisex Medium
 edition: Navy/Black (1), Black/Orange (1), White/Navy (1), Orange/White (1)
