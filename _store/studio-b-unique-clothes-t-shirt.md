@@ -31,6 +31,5 @@ materials: Unisex Medium
 edition: Navy/Black (1), Black/Orange (1), White/Navy (1), Orange/White (1)
 item_sku: studio-b-unique-clothes-t-shirt
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W78VFQUMNZKBW
-published: false
 
 ---
