@@ -8,7 +8,6 @@ item_name: Unique Clothes T-Shirt
 by: Studio B
 cost: 45
 images:
-- "/uploads/_DSF1995-1.JPG"
 - "/uploads/_DSF1996-1.JPG"
 - "/uploads/_DSF1994-1.JPG"
 - "/uploads/_DSF1997.JPG"
