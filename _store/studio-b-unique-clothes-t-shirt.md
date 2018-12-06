@@ -1,6 +1,6 @@
 ---
 title: 'Studio B: Unique Clothes T-Shirt'
-rank: 22
+rank: 21
 show: true
 purchase_type: Add to cart...
 date: 2018-12-05 06:31:26 +0000
@@ -8,8 +8,9 @@ item_name: Unique Clothes T-Shirt
 by: Studio B
 cost: 45
 images:
-- "/uploads/_DSF1996-1.JPG"
-- "/uploads/_DSF1994-1.JPG"
+- "/uploads/_DSF1995.JPG"
+- "/uploads/_DSF1996.JPG"
+- "/uploads/_DSF1994.JPG"
 - "/uploads/_DSF1997.JPG"
 description: Studio B's first clothing item, the Unique Clothes T-Shirt is produced
   in a handful of color combinations based on UNIQLO's packaged T-Shirts. These color
