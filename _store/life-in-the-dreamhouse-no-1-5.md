@@ -15,6 +15,5 @@ materials: ''
 edition: ''
 item_sku: dreamhouse2
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UC6RSZ9DSU47Q
-published: false
 
 ---
