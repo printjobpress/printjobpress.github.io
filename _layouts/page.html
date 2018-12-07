@@ -8,7 +8,7 @@ layout: default
     <!-- Store -->
     {% if output == '__store__' %}
       {% assign output = 'Products:<br><br>' %}
-      {% assign items = site.store | sort: 'rank' | reverse %}
+      {% assign items = site.store | sort: 'item_name' | reverse %}
       {% for item in items %}
         {% if item.show %}
           {% capture tmp %}<span class="{{item.item_name | slugify }} item"><span class="item-name">{{item.item_name}}</span><span class="spacing">..</span><span class="item-cost">${{item.cost}}</span></span> <a href="{{ item.paypal_url }}" target="_blank">{{item.purchase_type}}</a><div class="{{item.item_name | slugify}} item-meta hide">{% if item.images.size > 0 %}<a href="{{item.url}}"><img src="{{item.images[0]}}"></a>{% endif %}</div><br>{% endcapture %}
