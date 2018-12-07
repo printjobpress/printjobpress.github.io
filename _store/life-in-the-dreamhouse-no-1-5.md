@@ -9,7 +9,9 @@ by: Helen Lin and Eric Li
 cost: 10
 images:
 - "/uploads/life in dreamhouse pt 1.5.jpg"
-description: ''
+description: Life in the Dreamhouse is a series that is created through collaboration.
+  A scene is set. Then, each participant takes turns changing the scene, using only
+  a photocopier. The results are then collected into a booklet.
 dimensions: ''
 materials: ''
 edition: ''
