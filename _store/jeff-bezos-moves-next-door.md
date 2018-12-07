@@ -15,6 +15,5 @@ materials: ''
 edition: ''
 item_sku: jeff-next-door
 paypal_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8RRWJQ8AFWC7E
-published: false
 
 ---
