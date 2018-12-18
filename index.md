@@ -5,8 +5,6 @@ content_blocks:
 - content_block: printjob
   enable_border: true
   url: "/"
-- content_block: ''
-  enable_border: false
 - content_block: __store__
   enable_border: true
 - content_block: printjob is an independent publishing <br>initiative. It is a collective
@@ -26,11 +24,17 @@ content_blocks:
   url: http://eepurl.com/dFbtfH
 - content_block: "¯\\_(ツ)_/¯"
   enable_border: false
-- content_block: '* printjob was at *<br><a href="http://bostonartbookfair.com/" title="Boston
-    Art Book Fair">Boston Art Book Fair</a> on October 12–14, 2018<br><span class="blob-code-inner
-    blob-code-marker">NY Tech Zine Fair on November 30–December 1, 2018<br>Zine Soup
-    3.0: Makers Market on December 1, 2018<br>Odds and Ends Art Book Fair on December
-    7, 2018</span>'
+- content_block: '* printjob was at *<br><a href="https://www.instagram.com/oddsandendsartbookfair"
+    title="Odds and Ends Art Book Fair"><span class="blob-code-inner blob-code-marker">Odds
+    and Ends Art Book Fair</span></a><span class="blob-code-inner blob-code-marker">
+    on December 7, 2018</span><br><a href="https://www.facebook.com/events/341541416394112/"
+    title="Zine Soup 3.0: Makers Market"><span class="blob-code-inner blob-code-marker">Zine
+    Soup 3.0: Makers Market</span></a><span class="blob-code-inner blob-code-marker">
+    on December 1, 2018</span><br><a href="http://techzinefair.org/" title="NY Tech
+    Zine Fair"><span class="blob-code-inner blob-code-marker">NY Tech Zine Fair</span></a><span
+    class="blob-code-inner blob-code-marker"> on November 30–December 1, 2018<br></span><a
+    href="http://bostonartbookfair.com/" title="Boston Art Book Fair">Boston Art Book
+    Fair</a> on October 12–14, 2018'
   enable_border: false
 - content_block: <a href="mailto:printjobpress@gmail.com" title="email">email</a>,
     <a href="https://twitter.com/printjobpress" title="twitter">twitter</a>, <a href="http://instagram.com/printjobpress"
