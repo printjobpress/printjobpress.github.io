@@ -5,9 +5,6 @@ content_blocks:
 - content_block: printjob
   enable_border: true
   url: "/"
-- content_block: ''
-  enable_border: true
-  url: ''
 - content_block: printjob is an independent publishing <br>initiative. It is a collective
     of artists <br>using the tools of intervention, production, <br>and dissemination
     to understand ourselves <br>and the world. printjob was founded<br>by <a href="https://eric.young.li/"
@@ -19,6 +16,9 @@ content_blocks:
   enable_border: true
   url: ''
 - content_block: __menu__
+  enable_border: true
+  url: ''
+- content_block: __store__
   enable_border: true
   url: ''
 - content_block: Sign up for our mailing list..
