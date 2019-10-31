@@ -5,7 +5,7 @@ content_blocks:
 - content_block: printjob
   enable_border: true
   url: "/"
-- content_block: "**__store__"
+- content_block: ''
   enable_border: true
   url: ''
 - content_block: printjob is an independent publishing <br>initiative. It is a collective
