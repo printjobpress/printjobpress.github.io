@@ -1,7 +1,6 @@
 ---
 label: Page
 hide_body: true
-is_partial: false
 fields:
 - type: field_group_list
   label: Content Blocks
@@ -25,6 +24,6 @@ fields:
     label: URL
     description: make the entire content block link to something
 pages:
+- store.md
 - index.md
 - about.md
-- store.md
