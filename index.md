@@ -13,7 +13,7 @@ content_blocks:
     href="http://www.drewwallacegames.com/" title="Drew Wallace">Drew Wallace</a>,
     and <a href="http://jonathanzong.com/" title="Jonathan Zong">Jonathan Zong</a>
     in 2018.<br><br>we are no longer accepting orders. sorry!
-  enable_border: false
+  enable_border: true
   url: ''
 - content_block: __menu__
   enable_border: true
