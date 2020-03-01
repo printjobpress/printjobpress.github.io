@@ -68,7 +68,7 @@ layout: default
     {% endif %}
 
     <div class="content-block">
-      {% if content.url %}
+      {% if content.url and content.url != '' %}
         <a href="{{ content.url }}">{{ output }}</a>
       {% else %}
         {{ output }}
