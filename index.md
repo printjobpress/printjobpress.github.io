@@ -27,7 +27,8 @@ content_blocks:
 - content_block: "¯\\_(ツ)_/¯"
   enable_border: false
   url: ''
-- content_block: '* printjob was at *<br><a href="https://www.instagram.com/oddsandendsartbookfair"
+- content_block: '* printjob was at *<br><a href="https://pioneerworks.org/programs/press-play-fair-2019/"
+    title="">Press Play Fair at Pioneer Works</a> on June 28–29, 2019<br><a href="https://www.instagram.com/oddsandendsartbookfair"
     title="Odds and Ends Art Book Fair"><span class="blob-code-inner blob-code-marker">Odds
     and Ends Art Book Fair</span></a><span class="blob-code-inner blob-code-marker">
     on December 7, 2018</span><br><a href="https://www.facebook.com/events/341541416394112/"

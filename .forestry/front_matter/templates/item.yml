@@ -79,7 +79,6 @@ fields:
   default: Add to cart...
 pages:
 - _store/best-buy-zine.md
-- _store/bezos-grapes.md
 - _store/crisis-survival-strategies.md
 - _store/everyone-should.md
 - _store/jeff-bezos-is-feeling-snacky.md
