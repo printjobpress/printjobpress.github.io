@@ -10,7 +10,7 @@ title: printjob
 description: > # this means to ignore newlines until "baseurl:"
   printjob is an independent publishing initiative by Eric Li, Helen Lin, Kathleen Ma, Drew Wallace, and Jonathan Zong
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://printjob.press" # the base hostname & protocol for your site
+url: "https://printjobpress.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
