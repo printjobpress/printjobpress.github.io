@@ -5,7 +5,7 @@ content_blocks:
 - content_block: printjob
   enable_border: true
   url: "/"
-- content_block: printjob is an independent publishing <br>initiative. It is a collective
+- content_block: printjob press is an independent publishing <br>initiative. It is a collective
     of artists <br>using the tools of intervention, production, <br>and dissemination
     to understand ourselves <br>and the world. printjob was founded<br>by <a href="https://eric.young.li/"
     title="Eric Li">Eric Li</a>, <a href="http://helen-lin.com/" title="Helen Lin">Helen
